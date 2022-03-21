@@ -9,9 +9,11 @@
     box-sizing: border-box;
 }
 
+/*Elemento Base*/
 body{
     background: var(--preta) ;
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 header .container{
@@ -36,4 +38,12 @@ header nav a{
 
 header nav a:hover{
     color: #fff;
+}
+
+/*Filme Principal*/
+.filme-principal{
+    font-size: 16px;
+    background: url('../img/jeca_tatu.jpg');
+    height: 400px;
+    background-size: cover;
 }
